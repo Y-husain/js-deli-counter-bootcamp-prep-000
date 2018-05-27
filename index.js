@@ -1,8 +1,8 @@
 var katzDeli = []
 
-function takeANumber(katzDeli, name){
-  var number = 0;
-  for(let i=0; i<number; i++1){
-    return "You are num" $(name) 
+var takeANumber = function(katzDeli, newCustomer) {
+    
+    if (katzDeli.length > 0);
+     katzDeli.push(newCustomer);
+     return ('Welcome, ' + newCustomer + '. You are number ' + katzDeli.length + ' in line.')
   }
-}
