@@ -19,7 +19,7 @@ var takeANumber = function(katzDeli, newCustomer) {
    return "Currently serving " + customer + "."; }
    
    
-function nowServing (katzDeliLine) { //declared function
+function nowServing (katzDeliLine) {
    if(katzDeliLine.length===0) { //checks if length of array(katzDeli) is = to 0
    return 'There is nobody waiting to be served!'; //returns string no one is waiting
 }
