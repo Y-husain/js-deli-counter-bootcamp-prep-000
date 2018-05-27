@@ -20,13 +20,19 @@ var takeANumber = function(katzDeli, newCustomer) {
    
    
 function nowServing (katzDeliLine) {
+   //declared function
+   
    if(katzDeliLine.length===0) { 
-     (katzDeli) is = to 0
-   return 'There is nobody waiting to be served!'; //returns string no one is waiting
+     //checks if length of array(katzDeli) is = to 0
+
+   return 'There is nobody waiting to be served!'; 
+   //returns string no one is waiting
 }
-   var customer = katzDeliLine.shift(); // shift array of people
+   var customer = katzDeliLine.shift();
+    // shift array of people
     
-   return "Currently serving " + customer + "." ; //return string with customer name
+   return "Currently serving " + customer + "." ; 
+   //return string with customer name
 }
 
 const deliLine = ["Steven", "Blake", "Avi"];
