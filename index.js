@@ -1,5 +1,6 @@
 var katzDeli = []
 
 function takeANumber(katzDeli, name){
-  for 
+  var number = 0
+  for(let i=0; i<number;)
 }
