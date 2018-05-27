@@ -26,10 +26,10 @@ function nowServing (katzDeliLine) {
    //return string with customer name
 }
 
-const deliLine = ["Steven", "Blake", "Avi"];
-console.log(deliLine);
+
 
 var currentLine = function (katzDeliLine) {
+  
   if (katzDeliLine.length===0) {
   return "The line is currently empty.";
 }
