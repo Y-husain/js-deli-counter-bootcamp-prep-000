@@ -1,1 +1,5 @@
-var KatZDeli
+var katzDeli = []
+
+function takeANumber(katzDeli, name){
+  for 
+}
